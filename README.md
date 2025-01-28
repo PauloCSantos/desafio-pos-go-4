@@ -17,7 +17,7 @@ Implementar uma API em go que recebe um CEP retorne a temperatura em Celsius, Ke
 
 ## Configuração
 
-1. Na raiz do projeto no arquivo .env
+1. Na raiz do projeto no arquivo crie .env usando o .env.example
 
    - Preencher com sua key do weatherapi
 
