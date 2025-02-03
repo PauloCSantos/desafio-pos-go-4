@@ -35,3 +35,8 @@ Implementar uma API em go que recebe um CEP retorne a temperatura em Celsius, Ke
 
    - Existe o arquivo .http que faz a chamada só é necessario a extensão REST Client
    - Use o comando go test ./... para executar os testes
+
+5. O link para acessar a API
+
+   - `https://cepgraus-609309579426.us-central1.run.app/temperatureByCEP?cep=13720616`
+   - OBS: Vai ser desativada após a avaliação

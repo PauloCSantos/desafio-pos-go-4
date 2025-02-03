@@ -31,6 +31,7 @@ func (th *TemperatureHandler) TemperatureByCep(w http.ResponseWriter, r *http.Re
 
 	cityName, err := th.CityClient.GetCityByCEP(cep)
 	if err != nil {
+		fmt.Println(err)
 		http.Error(w, "Can not find zipcode", http.StatusNotFound)
 		return
 	}

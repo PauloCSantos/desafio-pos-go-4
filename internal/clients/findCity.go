@@ -25,7 +25,7 @@ type CityClient struct {
 
 func NewCityClient() *CityClient {
 	return &CityClient{
-		BaseURL: "https://viacep.com.br/ws/",
+		BaseURL: "http://viacep.com.br/ws/",
 		Client:  &http.Client{Timeout: 10 * time.Second},
 	}
 }
